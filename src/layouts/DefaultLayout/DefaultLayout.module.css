@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa no mínimo a altura total da tela */
+  font-family: sans-serif;
+  color: #333;
+}
+
+.header {
+  padding: "1rem";
+  border-bottom: '1px solid #ccc';
+}
+
+.sideBar {
+  width: '200px';
+  padding: '1rem';
+  background: '#f9f9f9';
+}
+
+.ul-links {
+  padding: 1;
+}
+
+.main {
+  flex: 1;
+  padding: '2rem';
+}
+
+.footer {
+  padding: '1rem';
+  text-align: 'center';
+  margin-top: 'auto';
+}
