@@ -4,8 +4,8 @@ import styles from "./DefaultLayout.module.css";
 
 export default function DefaultLayout() {
   return (
-    <div className={styles["app-container"]}>
-      <header style={{ padding: "1rem", borderBottom: "1px solid #ccc" }}>
+    <div className={styles.appContainer}>
+      <header className={styles.header}>
         <h1>MUI Course</h1>
       </header>
 
